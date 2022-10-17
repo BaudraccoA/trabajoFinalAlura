@@ -1,0 +1,66 @@
+.encabezado {
+    background: url(../img/portada.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 35px; 
+    opacity: 0.85;
+}
+
+.encabezado .menu {
+    text-align: center;
+}
+
+.encabezado .menu-item {
+    margin: 0 2px 32px 0;
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+
+.encabezado .menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.encabezado .menu-item:hover {
+    background-color: #48A3A6;
+}
+
+.encabezado .panel_main {
+    text-align: center;
+    padding: 0 0 40px 0;
+}
+
+.encabezado .panel_main .title { 
+    color: white;
+    font-size: 2em;
+}
+
+.encabezado .panel_main .subtitle {
+    color:#64ff64;
+    padding: 10px;
+    font-size: 1.3em;
+    margin: 08px 0 16px 0;
+}
+
+.encabezado .panel_main .registro a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 40px;      
+}
+
+.encabezado .panel_main .boton_principal {
+    display: inline-block;
+    margin: 0 10px 20px 0;
+    background-color: #48A3A6;
+    padding: 15px;
+    border-radius: 6px;
+    
+}
+
+@media (min-width: 650px){
+    .encabezado .panel_main{
+        font-size: 28px;
+    }
+}
+

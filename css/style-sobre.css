@@ -1,0 +1,20 @@
+.sobre {
+    text-align: center;
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.sobre_title {
+    font-size: 1.75rem;
+    font-weight:lighter;
+}
+
+.sobre_subtitle {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+}

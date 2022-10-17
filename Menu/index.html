@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>AluraConf</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style-header.css" />
+    <link rel="stylesheet" href="../css/style-sobre.css" />
+    <link rel="stylesheet" href="../css/style-cars.css"/>
+    <link rel="stylesheet" href="../css/style-form.css"/>
+  </head>
+  <body>
+    <header class="encabezado">
+      <nav class="menu">
+        <ul>
+          <button class="menu-item"><a href="#sobre">SOBRE</a></button>
+          <button class="menu-item"><a href="#container_cars">DISERTANTES</a></button>
+        </ul>
+      </nav>
+      <div class="panel_main">
+        <section class="title">
+          <h1 class="title">ALURACONF</h1>
+          <h2 class="subtitle">30SEPTIEMBRE|CDMX</h2>
+        </section>
+        <section class="registro">
+          <button class="boton_principal"><a href="#form">REGISTRARSE</a></button>
+        </section>
+      </div>
+    </header>
+      <section id="sobre" class="sobre">
+        <div class="container">
+        <h2 class="sobre_title">Mucho contenido del mundo de Desarrollo Web</h2>
+        <h3 class="sobre_subtitle">30 de Septiembre en la Ciudad de México</h3>
+        <div class="sobre_descripcion">
+          <p>
+            En ALURACONF abordaremos todas las novedades y conocimientos
+            esenciales del maravilloso mundo de Desarrollo Web o Front-End.
+          </p>
+
+          <p>
+            Es tu oportunidad para estar por dentro de los asuntos mas novedosos
+            sobre Desarrollo Web y todas las buenas prácticas de programación
+            Front-End. Conoce lo último en Frameworks y Bibliotecas como Vue.js,
+            NodeJS, React, Angular, BootStrap, entre muchos otros. Además ven y
+            conoce como se relaciona y como interactúa en la práctica un
+            Desarrollador Web con otras áreas de tecnología como ser: UX, UI,
+            Back-End, Banco de Datos, Infraestructura y con el área de Analytics
+            de una empresa.
+          </p>
+        </div>
+      </section>
+    </div>
+    <section id="container_cars" class="container_cars">
+      <div class="cars">
+        <h2 class="title">DISERTANTES</h2>
+        <h3 class="subtitle">
+          Aprenda con disertantes y ponentes que son referencia en la comunidad
+        </h3>
+      </div>    
+      <ul class="cars_contenido">
+        <li class="car">
+          <figure class="disertante_imagen">
+             <img alt="disertante" src="../img/disertantes/placeholder.jpeg" />
+             <figcaption class="cars_nombre">Christian Velasco</figcaption>
+             <p class="cars_cargo">Instructor en Alura Latam</p>
+          </figure>
+              <p class="cars_descripcion">
+                Las ventajas de pensar como programador.Las ventajas de pensar como
+                programador.Las ventajas de pensar como programador.Las ventajas de
+                pensar como programador.Las ventajas de pensar como programador.Las
+                ventajas de pensar como programador.
+              </p>
+        </li>
+        <li class="car">
+          <figure class="disertante_imagen">
+             <img alt="disertante" src="../img/disertantes/placeholder.jpeg" />
+             <figcaption class="cars_nombre">Christian Velasco</figcaption>
+             <p class="cars_cargo">Instructor en Alura Latam</p>
+          </figure>
+              <p class="cars_descripcion">
+                Las ventajas de pensar como programador.Las ventajas de pensar como
+                programador
+              </p>
+        </li>
+        <li class="car">
+          <figure class="disertante_imagen">
+             <img alt="disertante" src="../img/disertantes/placeholder.jpeg" />
+             <figcaption class="cars_nombre">Christian Velasco</figcaption>
+             <p class="cars_cargo">Instructor en Alura Latam</p>
+          </figure>
+              <p class="cars_descripcion">
+                Las ventajas de pensar como programador.Las ventajas de pensar como
+                programador
+              </p>
+        </li>
+        <li class="car">
+          <figure class="disertante_imagen">
+             <img alt="disertante" src="../img/disertantes/placeholder.jpeg" />
+             <figcaption class="cars_nombre">Christian Velasco</figcaption>
+             <p class="cars_cargo">Instructor en Alura Latam</p>
+          </figure>
+              <p class="cars_descripcion">
+                Las ventajas de pensar como programador.Las ventajas de pensar como
+                programador
+              </p>
+        </li>
+        <li class="car">
+          <figure class="disertante_imagen">
+             <img alt="disertante" src="../img/disertantes/placeholder.jpeg" />
+             <figcaption class="cars_nombre">Christian Velasco</figcaption>
+             <p class="cars_cargo">Instructor en Alura Latam</p>
+          </figure>
+              <p class="cars_descripcion">
+                Las ventajas de pensar como programador.Las ventajas de pensar como
+                programador
+              </p>
+        </li>
+        <li class="car">
+          <figure class="disertante_imagen">
+             <img alt="disertante" src="../img/disertantes/placeholder.jpeg" />
+             <figcaption class="cars_nombre">Christian Velasco</figcaption>
+             <p class="cars_cargo">Instructor en Alura Latam</p>
+          </figure>
+              <p class="cars_descripcion">
+                Las ventajas de pensar como programador.Las ventajas de pensar como
+                programador
+              </p>
+        </li>
+      </ul>      
+    </section>
+    <section id="form" class="form">
+      <form>
+          <h2 class="title">INGRESE SUS DATOS</h2>
+          <div class="field">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+          </div>
+          <div class="field">
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+          </div>
+          <div class="button">
+            <input type="submit" value="REALIZAR INSCRIPCION" class="enviar">
+          </div>              
+     </form>
+    </section>
+    <script src="../js/index.js"></script>
+    </body>
+</html>

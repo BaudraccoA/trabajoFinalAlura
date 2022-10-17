@@ -1,0 +1,52 @@
+.container_cars {
+    padding-top: 40px;
+    background-color: #EF7247;   
+}
+
+.container_cars .cars{
+    text-align: center;
+}
+
+.cars .title {
+    font-size: 35px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.cars .subtitle {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.cars_contenido {
+    text-align: center;   
+}
+
+.car {
+    background: #fdfdfd;
+    display: inline-block;
+    margin: 0 10px 20px 0;
+    padding: 18px;
+    width: 250px; 
+    border-radius: 10px; 
+    vertical-align: top;  
+}
+
+.cars_contenido .car .disertante_imagen img {
+   border-radius: 50%;
+}
+
+.cars_contenido .car .disertante_imagen .cars_nombre {
+    margin-top: 10px;
+}
+
+.cars_contenido .car .disertante_imagen .cars_cargo {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.cars_contenido .car .cars_descripcion {
+    margin-top: 10px;
+}
+
